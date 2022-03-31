@@ -115,7 +115,20 @@
 }
 
 /* all similar styling code */
-
+section{
+    padding: 100px 0;
+}
+.about, .services, .skills {
+    font-family: 'Poppins', sans-serif;
+}
+.about .about-content,
+.services .serv-content,
+.skills .skills-content{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
 section .title{
     position: relative; 
     text-align: center;
@@ -144,26 +157,11 @@ section .title::after{
     padding: 5px;
     background: #fff;
     transform: translatex(-50%); 
-
 }
 
 /* about section styling */
-section{
-    padding: 100px 0;
-}
-.about, .services {
-    font-family: 'Poppins', sans-serif;
-}
-
 .about .title::after{
     content: "who i am";
-}
-.about .about-content,
-.services .serv-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
 }
 .about .about-content .left{
     width: 45%;
@@ -253,6 +251,8 @@ section{
     font-weight: 500;
     margin: 10px 0 7px 0 ;
 }
+
+/* SKILLS services section styling */
 
 
 
