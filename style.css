@@ -253,8 +253,13 @@ section .title::after{
 }
 
 /* SKILLS services section styling */
-
-
+.skills .title::after{
+    content: "What i Know"
+}
+.skills .skills-content .column {
+    width: calc(50% - 30px);
+    /* ----- Não ficou na lateral esqueda ------  */
+}
 
 
 
