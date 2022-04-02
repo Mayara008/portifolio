@@ -258,7 +258,19 @@ section .title::after{
 }
 .skills .skills-content .column {
     width: calc(50% - 30px);
-    /* ----- Não ficou na lateral esqueda ------  */
+}
+.skills .skills-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
