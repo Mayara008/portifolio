@@ -270,9 +270,17 @@ section .title::after{
 .skills .skills-content .right .info{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
+.skills .skills-content .right span{
+font-weight: 500;
+font-size: 18px;
+}
+.skills .skills-content .right .line {
+height: 5px;
+width: 100%;
+background: lightgrey;
+}
 
 
 
