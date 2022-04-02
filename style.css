@@ -442,6 +442,10 @@ position: relative;
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .skills .skills-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
 }
 @media (max-width: 690px){
     .max-width{
@@ -455,7 +459,7 @@ position: relative;
     }
     .home .home-content a{
         font-size: 20px;
-        padding: 9px 25px;
+        /* padding: 9px 25px; */
     }
     .services .serv-content .card{
         width: 100%;
