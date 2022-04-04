@@ -9,13 +9,41 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        // Seta no decorrer do portifólio
+        if(this.scroll > 500){
+            $('.scrool-up-btn').addClass("show");
+        }else{
+            $('.scrool-up-btn').removeClass("show");
+        }
     });
+
+    // slide-up script 
+    $('.scrool-up-btn').click("function")(){
+        $('html').animate({scrollTop: 0});
+    }
+});
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+    // typing anim script
+    var typed = new Typed(".typing", {
+        Strings: ["Youtuber","Developer","Blogger","Designer","Freelancer"],
+        typeSpeed:100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        Strings: ["Youtuber","Developer","Blogger","Designer","Freelancer"],
+        typeSpeed:100,
+        backSpeed: 60,
+        loop: true
+    });
+
 
     // owl carousel script
     $('.carousel').owlCarousel({
