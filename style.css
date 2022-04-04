@@ -430,8 +430,24 @@ position: relative;
     font-size: 25px;
     color: #00804b;
 }
-
-
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+}
+.contact .right form .field input{
+    height: 100%;
+    width: 100%;
+}
 
 
 
