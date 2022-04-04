@@ -118,7 +118,7 @@
 section{
     padding: 100px 0;
 }
-.about, .services, .skills {
+.about, .services, .skills, .teams{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -206,7 +206,7 @@ section .title::after{
 }
 
 /* Services section styling */
-.services{
+.services, .teams{
     color: #fff;
     background: #111;
 }
@@ -289,6 +289,7 @@ section .title::after{
 }
 .skills .skills-content .right .info{
     display: flex;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -312,18 +313,28 @@ position: relative;
 }
 .skills-content .right .html::before{
     width: 50% ;
+    /* 90% */
 }
 .skills-content .right .css::before{
     width: 40% ;
+    /* 60% */
 }
 .skills-content .right .js::before{
     width: 30% ;
+    /* 80% */
 }
 .skills-content .right .php::before{
     width: 20% ;
+    /* 50% */
 }
 .skills-content .right .mysql::before{
     width: 60% ;
+    /* 70% */
+}
+
+/* teams section styling */
+.teams .title::after{
+    content: "Who with me";
 }
 
 
