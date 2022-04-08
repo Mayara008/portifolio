@@ -506,8 +506,8 @@ position: relative;
     resize: none;
 }
 .contact .right form .button{
-    height: 47px;
-    width: 100%;
+    height: 47px; 
+    width: 170px;
 }
 .contact .right form .button button{
     width: 100%;
