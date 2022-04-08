@@ -9,6 +9,23 @@
 html{
     scroll-behavior:smooth;
 }
+/* custom scroll bar */
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 
+/* all similar content styling codes */
+ section{
+    padding: 100px 0;
+} 
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -57,6 +74,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a {
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -90,6 +108,7 @@ html{
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
+    border-bottom-width: 2px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -99,6 +118,9 @@ html{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
 }
 
 /* home INICIO */
@@ -110,10 +132,13 @@ html{
     height: 100vh;
     color: #fff;
     min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
+    display: flex;
 }
 .home .home-content .text-1{
     font-size: 27px;
